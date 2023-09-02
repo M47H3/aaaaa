@@ -1,0 +1,777 @@
+.sobre {
+    color: white;
+    margin-left: 4%;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.galvao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.galvao img {
+    margin-right: 4%;
+}
+
+.chat-proga {
+    background-color: rgb(180, 180, 180);
+    border-radius: 25px;
+    width: 320px;
+
+}
+
+.chat-ia {
+    background-color: rgb(180, 180, 180);
+    border-radius: 25px;
+    width: 320px;
+
+}
+
+.chat-proga p {
+    margin-right: 4%;
+
+}
+
+.chat-ia p {
+    margin-right: 4%;
+
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.texto {
+    margin-right: 10%;
+}
+
+
+
+body {
+    margin-top: 4%;
+    margin-block-end: 2%;
+    margin: 0%;
+}
+/*Organizando o topo*/
+nav {
+    background-color: #00000000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    margin-left: 4%;
+    font-size: 30px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li.login {
+    float: right;
+}
+
+nav li.carrinhos {
+    float: right;
+}
+
+nav li.login a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+nav li.carrinhos a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+/*Arrumando o modal da senha*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #467692;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.cmodal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.cmodal-content {
+    background-color: #467692;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.slogan {
+    color: white;
+    margin-left: 4%;
+    font-size: larger;
+}
+
+h1 {
+    color: white;
+    margin-left: 4%;
+    font-size: 40px;
+    margin-top: 4%;
+}
+
+
+/*Parte das fotos e dos textos e com um pouco do Login e começo*/
+
+body {
+    margin: 0;
+    color: #ffffff;
+}
+
+.tudo {
+    margin-top: 4%;
+    margin-block-end: 2%;
+}
+
+nav {
+    background-color: #00000000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    margin-left: 4%;
+    font-size: 30px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li.login {
+    float: right;
+}
+
+nav li.carrinhos {
+    float: right;
+}
+
+
+nav li.login a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+nav li.carrinhos a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #467692;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.cmodal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.cmodal-content {
+    background-color: #467692;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.slogan {
+    color: white;
+    margin-left: 4%;
+    font-size: larger;
+}
+
+h1 {
+    color: white;
+    margin-left: 4%;
+    font-size: 40px;
+    margin-top: 4%;
+}
+
+html {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    margin: 0%;
+    margin-block-end: 2%;
+    background-color: rgb(43, 42, 42);
+
+}
+
+nav {
+    background-color: #00000000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    margin-left: 4%;
+    font-size: 30px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li.login {
+    float: right;
+}
+
+nav li.login a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+nav li.carrinhos {
+    float: right;
+}
+
+nav li.carrinhos a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #467692;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.cmodal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.cmodal-content {
+    background-color: #467692;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.slogan {
+    color: white;
+    margin-left: 4%;
+    font-size: larger;
+}
+
+h1 {
+    color: white;
+    margin-left: 4%;
+    font-size: 40px;
+    margin-top: 4%;
+}
+
+.letra {
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    left: 35%;
+}
+
+.A {
+    background-color: black;
+    width: 100.5%;
+    height: 87px;
+    margin-top: 53px;
+    font-size: 40px;
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+.z {
+
+    margin-top: 15px;
+
+}
+
+.texto {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.texto p {
+    width: 1085px;
+    font-size: 40px;
+    margin-left: 35px;
+}
+
+
+
+
+/**/
+
+/* .A2{
+    background-color: black;
+    width: 1920px;
+    height: 87px;
+    margin-top: 53px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+}
+.z2{
+  
+ margin-top: 15px;
+
+}
+.texto2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+.texto2 p{
+    width: 1085px;
+    font-size: 40px;
+    margin-left: -10px;
+}
+.texto2 img{
+    margin-left: 34px;
+    width: 620px;
+    height: 592px;
+    margin-top: 0px;
+} */
+
+/*Parte das fotos e dos textos*/
+
+.A2 {
+    position: relative;
+    background-color: black;
+    width: 101%;
+    height: 87px;
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: -10px;
+    
+}
+
+.z2 {
+    margin-top: 15px;
+margin-left: 10%;
+}
+
+.texto2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.texto2 p {
+    width: 1085px;
+    font-size: 40px;
+   margin-left: 3%;
+}
+
+.texto2 img{
+    width: 30%;
+    height: 80%;
+   margin-left: 5%;
+   margin-bottom: 3%;
+}
+
+.fotos img {
+    margin-left: 228px;
+    width: 620px;
+    height: 592px;
+    margin-top: 73px;
+}
+
+
+.fotos {
+    display: flex;
+}
+
+
+
+img {
+    display: flex;
+}
+
+.gallery-image {
+    width: auto;
+}
+
+.ampliada-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 9999;
+}
+
+.ampliada-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.md {
+    background-color: rgba(36, 36, 36, 0.781);
+    border-radius: 50px;
+}
+
+.jk {
+    width: 30%;
+}
+.texto img{
+    width: 35%;
+    height: 100%;
+    margin-right: -7%;
+    margin-bottom: 3%;
+}
+.add4 {
+    
+    color: white;
+    background-color: green;
+    border-radius: 50px;
+   margin-left: 27%;
+    bottom: 10%;
+    font-size: 30px;
+}
+
+.add {
+    width: 20%;
+    height: 10%;
+    color: white;
+    background-color: green;
+    border-radius: 50px;
+    top: 170%;
+    margin-left: 25%;
+    font-size: 30px;
+}
+
+.add3 {
+    width: 20%;
+    height: 10%;
+    color: white;
+    background-color: green;
+    border-radius: 50px;
+    position: absolute;
+    top: 350%;
+    left: 23%;
+    font-size: 30px;
+}
+
+.tlc {
+    top: 325%;
+    right: 2%;
+    width: 20%;
+    height: 20%;
+}
+
+.add2 {
+    width: 20%;
+    height: 10%;
+    color: white;
+    background-color: green;
+    border-radius: 50px;
+    font-size: 30px;
+    margin-left: 59%;
+}
+
+.dr {
+    position: absolute;
+    top: 400%;
+}
+.subir{
+    margin-top: -30%;
+}
+.preço {
+    font-size: 60px;
+    color: #ff0000;
+    margin-left: 60%;
+    margin-top: -15%;
+}
+.preço8 {
+    font-size: 60px;
+    color: #ff0000;
+    margin-left: 60%;
+    margin-top: -5%;
+}
+.preçoz {
+    font-size: 60px;
+    margin-left: 23%;
+    color: #ff0000;
+    margin-top: -5%;
+}
+.preço2 {
+    font-size: 60px;
+    position: absolute;
+    top: 333%;
+    right: 61%;
+    color: #ff0000;
+}
+
+.preço3 {
+    font-size: 60px;
+    margin-left: 30%;
+    color: #ff0000;
+
+}
+
+.preço4 {
+    font-size: 60px;
+    margin-left: 26%;
+    color: #ff0000;
+    margin-top: -15%;
+}
+.preço5 {
+    font-size: 60px;
+    margin-left: 26%;
+    color: #ff0000;
+    margin-top: -7%;
+}
+
+
+.FONESSSSS{
+    background-color: black;
+    position: absolute;
+    top: 360%;
+    
+    background-size: 700%;
+}
+.z3{
+    position: absolute;
+    top: 390%;
+}
+
+.carrinho-icon{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.meuCarrinho{
+    display: flex;
+    margin-left: 4%;
+ 
+    font-size: 80px;
+}
+
+.finalizar{
+    display: flex;
+    width:7%;
+    height: 7%;
+    color: white;
+    background-color: green;
+    border-radius: 50px;
+    margin-left: 80%;
+    font-size: 30px;
+    margin-top: 40%;
+} 
+.add7 {
+    width: 20%;
+    height: 10%;
+    color: white;
+    background-color: green;
+    border-radius: 50px;
+    font-size: 30px;
+
+}
+.add9 {
+    width: 20%;
+    height: 10%;
+    color: white;
+    background-color: green;
+    border-radius: 50px;
+    font-size: 30px;
+    margin-left: 21%;
+    margin-top: -5%;
+}
+.add6 {
+    width: 20%;
+    height: 10%;
+    color: white;
+    background-color: green;
+    border-radius: 50px;
+    font-size: 30px;
+    margin-left: 59%;
+}
+/*Parte do carrinho*/
+.adcionar{
+    color: rgba(36, 36, 36, 0.781);
+}
+.tr{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.aument{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cont{
+    position: center;
+    color: #ffffff;
+    list-style-type: none;
+}
+.tt{
+    margin-top: 13%;
+    font-size: 90px;
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="carrinho.css">
+    <link rel="stylesheet" href="tipos.css">
+    <link rel="stylesheet" href="acs.css">
+</head>
+
+
+<header>
+
+
+    <nav>
+        <ul>
+            <li><a href="site.html"><img src="img/unnamed.png" alt="Nossa Logo"></a></li>
+            <li><a href="#" class="ctt">Contato</a></li>
+            <!-- id="claro" -->
+
+
+
+
+
+            <li class="carrinho"><a href="carrinho.html" id="carrinho-link">Carrinho</a></li>
+
+            <li class="login"><a href="#" id="login-link">Login</a></li>
+        </ul>
+    </nav>
+
+
+
+
+    <!--outro negocio-->
+
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form>
+                <label for="username">Nome de usuário:</label>
+                <input type="text" id="username" name="username">
+
+                <label for="password">Senha:</label>
+
+                <input type="password" id="password" name="password">
+                <iconify-icon id="olho" icon="mdi:eye"></iconify-icon>
+
+                <button type="submit">Entrar</button>
+            </form>
+            <p>Não tem uma conta? <a href="#">Crie uma aqui</a></p>
+        </div>
+    </div>
+
+    <h1>Peças e periféricos</h1>
+    <div class="slogan">
+        <p>Neste site mostraremos peças e periféricos ótimos<br>
+            com um preço ideal.</p>
+    </div>
+
+</header>
+
+
+<div class="tudo">
+    <br><br><br><br><br>
+<!-- Imagens dos itens, junto de um texto -->
+    <!-- 1º item -->
+    <div class="galvao">
+        <div class="texto1">
+            <p class="sobre">Um mouse profissional é uma ferramenta essencial para qualquer pessoa que busque excelência
+                em produtividade e precisão em suas tarefas no mundo digital. Este dispositivo é meticulosamente
+                projetado para atender às demandas de profissionais de diversas áreas, desde designers gráficos e
+                editores de vídeo até gamers competitivos e desenvolvedores de software.
+                <br>
+            </p>
+            <p class="preço3"> R$ 55,80</p>
+            <button class="add4" id="k9">Adicionar ao Carrinho</button>
+
+        </div>
+
+        <img src="mouse.jpg" alt="" class="jk" move="ampliarImagem(this)">
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <h1 class="letra">
+
+
+    </h1>
+    <!-- 2º item -->
+    <div class="A">
+        <p class="z">TGT G250
+        </p>
+    </div>
+
+
+    <div class="texto">
+        <p style="font-size: 30px;">
+            Procurando um novo gabinete para deixar seu setup ainda mais incrível? Prepare-se para conhecer nosso TGT
+            G250, moderno e eficiente, ele é o upgrade que você estava esperando!</p>
+        <img src="gabinete.jpg" alt="" class="gabi" onclick="ampliarImagem(this)">
+    </div>
+    <p class="preço4"> R$ 129,90</p>
+    <button class="add" id="gabi">Adicionar ao Carrinho</button>
+
+
+    <!-- 3º item -->
+    <div class="A">
+        <p class="z"> MONITOR BRX 27, 27 POL., 75HZ, HDMI/VGA, BRX27
+        </p>
+    </div>
+    <div class="texto2">
+
+
+        <img src="monitor.jpg" alt="Monitor-Gamer " class="mnt" onclick="ampliarImagem(this)">
+        <p style="font-size: 30px;"> Monitor Gamer com Qualidade. Monitor Gamer AOC,
+            Samsung, Acer, LED, Curvo, 144Hz ou 165Hz. Maior Loja Gamer. Tudo para Gamers.
+        </p>
+
+    </div>
+
+    <p class="preço">R$ 859,90</p>
+    <button class="add2" id="ad">Adicionar ao Carrinho</button>
+
+    <!-- 4º item -->
+    <div class="A">
+        <p class="z"> TECLADO GAMER RAPOO V52PRO, LED, PRETO, RA029
+        </p>
+    </div>
+    <div class="fotos">
+
+
+
+    </div>
+
+    <div class="texto">
+        <p style="font-size: 30px;">O Teclado Gamer Rapoo VPro Retroiluminado é ideal para os gamers que buscam uma
+            ótima performance.
+
+            Ele foi produzido com um sistema de membrana similar aos switches azuis e possui retroiluminação ajustável
+            para o jogador ajustar as luzes de fundo LED da maneira que achar mais agradável.
+
+            Ainda falando no design, é possível pressionar até 25
+            teclas simultaneamente e garantir que seus comandos sejam executados com rapidez e precisão, o que evita ao
+            máximo o efeito ghosting.
+
+        </p>
+        <img src="teclado.jpg" alt="" class="tlc" onclick="ampliarImagem(this)">
+    </div>
+    <p class="preço5"> R$ 159,99</p>
+    <button class="add" id="ij">Adicionar ao Carrinho</button>
+
+    <!-- 5 item -->
+
+    <div class="A">
+        <p class="z"> PLACA DE VIDEO PNY GEFORCE RTX 6000, 48GB.
+        </p>
+    </div>
+    <div class="texto2">
+        <img class="pdv" src="placa.jpg" alt="imagem da placa de video" onclick="ampliarImagem(this)">
+        <p style="font-size: 30px;">Uma placa de vídeo, também conhecida como GPU (Unidade de Processamento Gráfico),
+            <br>
+            é um componente essencial em um computador ou sistema de computação moderno. <br>
+            Essa pequena placa de circuito, muitas vezes alojada em um slot na placa-mãe do computador, <br>
+            desempenha um papel fundamental no processamento de imagens e gráficos. <br>
+            Vamos explorar alguns recursos e funcionalidades que tornam as placas de vídeo tão importantes e
+            fascinantes.
+        </p>
+
+    </div>
+    <p class="preço8">R$ 55.999,00</p>
+    <button class="add6" id="pv">Adicionar ao Carrinho</button>
+    <!-- 6 item -->
+
+
+    <div class="A">
+        <p class="z"> VENTOINHA XPG HUNRRICANE, 140MM.</p>
+    </div>
+    <div class="texto">
+        <p style="font-size: 30px;">As ventoinhas de computador, também conhecidas como coolers, são dispositivos
+            pequenos, porém fundamentais, <br>
+            que desempenham um papel essencial no funcionamento dos computadores modernos. <br>
+            Estes dispositivos de resfriamento são responsáveis por manter <br>
+            a temperatura dos componentes internos do computador dentro de níveis seguros, <br>
+            evitando superaquecimento e garantindo um desempenho estável.</p>
+
+        <img class="tlc" src="vetoinha.jpg" alt="imagem da ventoinha" onclick="ampliarImagem(this)">
+    </div>
+    <p class="preçoz">R$ 99.90</p>
+    <button class="add" id="ij">Adicionar ao Carrinho</button>
+    <center>
+        <!-- A parte do carrinho onde a pessoa escolhe o item -->                                                                                                                                                                                             
+      <h2 class="tt">Carrinho</h2>
+      <form>
+        
+        <div class="cont">
+        <div class="aument">
+        <label class="btnp" for="produto">Produto:</label>
+        <select id="produto" name="produto">
+          <option value="Mouse Gamer" class="mg">Mouse Gamer</option>
+          <option value="Gabinete" class="gb">Gabinete TGT G250</option>
+          <option value="MONITOR" class="mn" >MONITOR BRX 27, 27 POL</option>
+          <option value="Teclado" class="tc" >TECLADO GAMER</option>
+          <option value="Placa" class="pl" >PLACA DE VIDEO PNY GEFORCE RTX 6000.</option>
+          <option value="Ventoinha" class="vtn" >Ventoinha</option>
+        </select>
+        <!-- Onde a pessoa escolha a quantidade que quer adicionar ou remover -->
+        <label class="" for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidade" name="quantidade" min="1">
+        <button class="btn2" type="button" onclick="adicionar()">Adicionar</button>
+        <button class="btn3" type="button" onclick="remover()">remover</button>
+        <div>
+
+    
+    </form>
+ <div class="tr">
+      <h2>Carrinho de compras</h2>
+      <ul id="carrinho" style="list-style: none;">
+        
+        <li>Mouse Gamer - 0</li>
+        <li>Gabinete TGT G250 - 0</li>
+        <li>Monitor BRX 23, 27 POL - 0</li>
+        <li>TECLADO GAMER - 0</li>
+        <li>PLACA DE VIDEO PNY GEFORCE RTX 6000 - 0</li>
+        <li>Ventoinha XPG HUNRRICANE - 0</li>
+      </ul>
+      <h2>Valor total</h2>
+      <p id="total">R$0,00</p>
+    </div>
+</div>
+</center>
+      <script>
+        function adicionar() {
+          let produto = document.getElementById("produto").value;
+          let quantidade = parseInt(document.getElementById("quantidade").value);
+          adicionarProduto(produto, quantidade);
+          atualizarCarrinho();
+          atualizarTotal();
+        }
+        function remover() {
+          let produto = document.getElementById("produto").value;
+          let quantidade = parseInt(document.getElementById("quantidade").value);
+          reduzirProduto(produto, quantidade);
+          atualizarCarrinho();
+          atualizarTotal();
+        }
+        function atualizarCarrinho() {
+          let carrinho = document.getElementById("carrinho").getElementsByTagName("li");
+          for (let i = 0; i < carrinho.length; i++) {
+            carrinho[i].textContent = `${produtos[i]} - ${quantidades[i]}`;
+          }
+        }
+    
+        function atualizarTotal() {
+          let total = calcularTotal();
+          document.getElementById("total").textContent = `R$${total.toFixed(2)}`;
+        }
+
+
+//   function remover() {
+//     let produto = document.getElementById("produto").value;
+//     let quantidade = parseInt(document.getElementById("quantidade").value);
+//     reduzirproduto(produto, quantidade);
+//     atualizarCarrinho();
+//     atualizarTotal();
+//   }
+      </script>
+
+
+
+
+    <!-- <div class="separado">
+        <h2 class="meuCarrinho">Meu Carrinho:</h2>
+        <h1>Produtos</h1>
+        <table>
+            <tr>
+                <th class="nome1">Nome do Produto e Quantidade</th>
+                <th>Preço</th>
+                <th>Remover</th>
+                <th>Adicionar</th>
+
+            </tr>
+
+            <tr>
+                <td id="totalv">Mouse Multi Warrior 3200 DPI</td>
+                <td>R$55,80</td>
+                <td><input type="number" id="in1"> <button class="addicionar" id="Remover1">Remover</button></td>
+                <td><input type="number" id="inp1"> <button class="addicionar" id="adicionar1">Adicionar</button></td>
+
+            </tr>
+            <tr>
+                <td id="tt2">Gabinete TGT G250</td>
+                <td>R$129,90</td>
+                <td><input type="number" id="in2"> <button class="addicionar" id="Remover2">Remover</button></td>
+                <td><input type="number" id="inp2"> <button class="addicionar" id="adicionar2">Adicionar</button></td>
+
+            </tr>
+            <tr>
+                <td id="tt3">Monitor BRX 27,27 Pol.,75HZ</td>
+                <td>R$859,90</td>
+                <td><input type="number" id="in3"> <button class="addicionar" id="Remover3">Remover</button></td>
+                <td><input type="number" id="inp3"> <button class="addicionar" id="adicionar3">Adicionar</button></td>
+
+            </tr>
+            <tr>
+                <td id="tt4">Teclado GAMER RAPOO V52PRO</td>
+                <td>R$159,99</td>
+                <td><input type="number" id="in4"> <button class="addicionar" id="Remover4">Remover</button></td>
+                <td><input type="number" id="inp4"> <button class="addicionar" id="adicionar4">Adicionar</button></td>
+
+            </tr>
+            <tr>
+                <td id="tt5">PLACA DE VIDEO PNY GEFORCE RTX 6000, 48GB.</td>
+                <td>R$ 55.999,00</td>
+                <td><input type="number" id="in5"> <button class="addicionar" id="Remover5">Remover</button></td>
+                <td><input type="number" id="inp5"> <button class="addicionar" id="adicionar5">Adicionar</button></td>
+
+            </tr>
+            <tr>
+                <td id>VENTOINHA XPG HUNRRICANE, 140MM.</td>
+                <td>R$ 99.90</td>
+                <td><input type="number" id="in6"> <button class="addicionar" id="Remover6">Remover</button></td>
+                <td><input type="number" id="inp6"> <button class="addicionar" id="adicionar6">Adicionar</button></td>
+
+            </tr>
+        </table>
+        <H2>Valor Total: </H2>
+        <p id="total">R$0,00</p>
+
+
+        <script>
+            //  document.getElementById("total").textContent = `R$${total.toFixed(2)}`;
+            function atualizarTotal() {
+                let total = calcularTotal();
+                document.getElementById("total").textContent = `R$${total.toFixed(2)}`;
+            }
+
+            document.getElementById("nome1").textContent = `R$${quantasmouse.toFixed(2)}`;
+
+        </script> -->
+
+        <footer>
+
+        </footer>
+    </div>
+    </body>
+    <script src="./site.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="tipos.js"></script>
+    <script src="carrinho.js"></script>
+
+</html>
+<!-- PLACA DE VIDEO PNY GEFORCE RTX 6000 ADA GENERATION, 48GB, GDDR6, 384-BIT, VCNRTX6000ADA-PB -->
+<!-- VENTOINHA XPG HUNRRICANE, 140MM, ARGB, PWM, HURRICANE140ARGBPWM-BKC -->
